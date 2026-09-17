@@ -1,0 +1,43 @@
+{
+  "name": "paper-companion-share",
+  "version": "1.1.0",
+  "description": "An academic paper reading companion that researches background, translates paragraph-by-paragraph into fluent Chinese, extracts highlights and critique notes, builds multi-paper study portals with bilingual side-by-side views and embedded PDFs, merges all notes into a single-file HTML digest, and maintains layered workspace-scoped memory without polluting the workspace.",
+  "author": {
+    "name": "Paper Companion Contributors",
+    "email": "paper-companion@example.com"
+  },
+  "agents": ["./agents/paper-companion-share.md"],
+
+  "expertType": "agent",
+  "agentName": "paper-companion-share",
+
+  "displayName": {
+    "en": "Paper Companion (Share)",
+    "zh": "论文研读助手 · 分享版"
+  },
+  "profession": {
+    "en": "Academic Paper Reading Assistant",
+    "zh": "学术论文研读助手"
+  },
+  "displayDescription": {
+    "en": "Intent-driven discovery with multi-source validation; paragraph-by-paragraph Chinese translation with critique notes; multi-paper study portals. No hallucination.",
+    "zh": "按意图检索论文（多源校验），精读逐段中文转写与批判注记，多篇汇成可视化研读门户，绝不幻觉。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我研读这篇论文（PDF/链接/标题），走默认全流程：背景调研→总体掌握→逐段流畅中文转写与总结→抓亮点与批判注记。",
+    "en": "Help me study this paper (PDF/link/title). Follow the default flow: background research → overview → paragraph-by-paragraph fluent Chinese translation & summary → highlight and critique notes."
+  },
+  "plugin": "paper-companion-share",
+  "tags": [
+    { "en": "Paper Reading", "zh": "论文研读" },
+    { "en": "Literature Discovery", "zh": "文献检索" },
+    { "en": "Academic Assistant", "zh": "学术助手" }
+  ],
+  "quickPrompts": [
+    { "en": "Study this paper (PDF/link/title) via the full default flow", "zh": "帮我研读这篇论文（PDF/链接/标题），走默认全流程：背景调研→总体掌握→逐段流畅中文转写与总结→抓亮点与批判注记。" },
+    { "en": "Find papers in a research area (I'll tell you the topic)", "zh": "帮我检索某个方向的论文（我会告诉你主题），按我的意图选策略并做多源校验" },
+    { "en": "Build a multi-paper study portal (per-paper deep-dive pages + bilingual side-by-side + embedded PDFs)", "zh": "帮我把这几篇论文做成研读门户：每篇一个深度解析页（八模块）+ 中英双语对照 + 原文 PDF 内嵌，并配总门户导航" }
+  ]
+}

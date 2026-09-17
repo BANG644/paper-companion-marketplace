@@ -1,0 +1,26 @@
+{
+  "name": "paper-companion-marketplace",
+  "description": "Paper Companion marketplace — an academic paper reading expert for WorkBuddy.",
+  "owner": {
+    "name": "BANG644"
+  },
+  "version": "1.1.0",
+  "plugins": [
+    {
+      "name": "paper-companion-share",
+      "source": "./plugins/paper-companion-share",
+      "description": "Intent-driven paper discovery with multi-source validation; paragraph-by-paragraph fluent Chinese translation with critique notes; multi-paper study portals with bilingual side-by-side views and embedded PDFs; single-file HTML digest indexing local PDFs. No hallucination.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Paper Companion Contributors"
+      },
+      "category": "04-DataAI",
+      "keywords": [
+        "paper-reading",
+        "literature-discovery",
+        "academic-assistant",
+        "research"
+      ]
+    }
+  ]
+}
