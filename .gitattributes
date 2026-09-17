@@ -1,0 +1,16 @@
+# Normalize all text files to LF inside the repository,
+# so scripts and docs behave identically on Windows / macOS / Linux.
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+
+# Binary assets must never be line-ending converted.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
